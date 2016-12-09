@@ -5,7 +5,7 @@ Ruby UAParser is a bridge to  [UAParser.js](https://github.com/faisalman/ua-pars
 ## Installation
 
 ```
-gem install ua-parser-ruby
+gem install ua_parser
 ```
 
 ## Dependencies

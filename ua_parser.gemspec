@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'ua_parser/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "ua-parser-ruby"
+  spec.name          = "ua_parser"
   spec.version       = UAParser::VERSION
   spec.authors       = ["Jason Meller"]
   spec.email         = ["jason@kolide.co"]
