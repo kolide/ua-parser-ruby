@@ -19,7 +19,7 @@ module UAParser
     JS
 
     def self.path
-      @path ||= ENV['UA_PARSER_SOURCE_PATH'] || bundled_path
+      @path ||= Rails.root.join(ENV['UA_PARSER_SOURCE_PATH']) || bundled_path
     end
 
     def self.contents
